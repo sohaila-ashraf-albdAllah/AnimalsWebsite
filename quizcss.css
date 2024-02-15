@@ -1,0 +1,25 @@
+td{
+	color:yellow;
+	text-shadow: 1px 1px 5px black; 
+	font-weight: bold;
+	font-size: medium;
+	text-align: left;
+	width:20%
+	
+}
+
+li {
+	font-size: x-large;
+	color:green;
+
+}
+
+button {
+	background-color: red;
+}
+body{
+	width: 100%;
+    height: 100%;
+	background-size: cover;
+	background-image: url("quiz1.jpg");
+}
