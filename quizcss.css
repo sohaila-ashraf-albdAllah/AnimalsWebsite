@@ -1,0 +1,19 @@
+td{
+	color:yellow;
+	text-shadow: 1px 1px 5px black; 
+	font-weight: bold;
+	font-size: medium;
+	text-align: left;
+	width:20%
+	
+}
+
+li {
+	font-size: x-large;
+	color:green;
+
+}
+
+button {
+	background-color: red;
+}

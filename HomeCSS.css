@@ -44,6 +44,12 @@ body {
     background-color: rgba(131, 143, 117, 0.25);
     position: absolute;
 }
+#quizImgID {
+	width: 100%;
+    height: 35%;
+	background-image: url("quiz3.jpg");
+	
+}
 .menulinks {
     position: relative;
     top: 14%;
