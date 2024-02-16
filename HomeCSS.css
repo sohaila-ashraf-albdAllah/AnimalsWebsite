@@ -45,10 +45,13 @@ body {
     position: absolute;
 }
 #quizImgID {
-	width: 100%;
-    height: 35%;
 	background-image: url("quiz3.jpg");
-	
+    /*background-color: white;*/
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 100%;
+    text-align: center;
 }
 .menulinks {
     position: relative;
@@ -83,12 +86,5 @@ body {
     text-decoration: none;
     font-size: large;
 }
-#footerLinkes {
-    background-color: white;
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    top: 100%;
-    text-align: center;
-}
+
 
