@@ -1,17 +1,20 @@
 <html>
 	<head>
 		<title>Mammals</title>
-		<link rel="stylesheet" href="CSS.css">
 		<link href="https://fonts.cdnfonts.com/css/marhey" rel="stylesheet">
+		<style>
+			frame {
+				border: 1px solid rgb(216, 197, 197);
+				resize: none;
+			}
+		</style>
 	</head>
-	<body>
-		<frameset rows="20%,*,10%">
-			<frame src="wellcomePage.html"></frame>
-			<frameset cols="20%,*">
-				<frame src="MenuPage.html"></frame>
-				<frame name="#home" src="afterPage.html"></frame>
-			</frameset>
-			<frame src="footerPage.html"></frame>
+	<frameset rows="10%,*,5%">
+		<frame src="barPage.html" frameborder="1"></frame>
+		<frameset cols="15%,*">
+			<frame src="MenuPage.html" frameborder="1"></frame>
+			<frame name="#home" src="afterPage.html"  frameborder="1"></frame>
 		</frameset>
-	</body>
+		<frame src="about us.html" frameborder="1"></frame>
+	</frameset>
 </html>
