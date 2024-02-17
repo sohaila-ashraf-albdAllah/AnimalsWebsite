@@ -22,11 +22,18 @@ div {
     display: none;
 }
 
-#rightOne:hover + #img2,
+#rightOne:active {
+	background-color:blue;
+}
+#rightTwo:active {
+	background-color:blue;
+}
+/*+ #img2,
+
 #rightTwo:hover + #img2 {
     display: block;
 }
-
+*/
 .arrows {
     position: absolute;
     top: 35%;
@@ -37,18 +44,22 @@ div {
 
 #leftOne {
     left: 15%;
+	float: left;
 }
 
 #leftTwo {
     left: 17%;
+	float: left;
 }
 
 #rightOne {
     right: 12%;
+	float: right;
 }
 
 #rightTwo {
     right: 10%;
+	float: right;
 }
 
 div p {
