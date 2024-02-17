@@ -1,17 +1,50 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Aardvark Page</title>
-    <link rel="stylesheet" href="../CSS pages/AardvarkCSS.css">
-    <link href="https://fonts.cdnfonts.com/css/marhey" rel="stylesheet">
-</head>
-<body>
-    <div><img id="img1" class="imgs" src="../Images/Aardvark/jpg(3)" alt="Aardvark Image"></div>
-    <div><img id="img2" class="imgs" src="../Images/Aardvark/Aardvark.jpg" alt="Aardvark Image"></div>
-    <div id="leftOne" class="arrows">&lt;</div>
-    <div id="leftTwo" class="arrows">&lt;</div>
-    <div id="rightOne" class="arrows">&gt;</div>
-    <div id="rightTwo" class="arrows">&gt;</div>
-    <div><p>The aardvark gets its name from a South African word meaning “earth pig.” <br> Although the aardvark looks like a pig, aardvarks actually share common ancestors with elephants and golden moles.</p></div>
-</body>
+	<head>
+		<title>Aardvark</title>
+		<link rel="stylesheet" href="../CSS pages/AardvarkCSS.css">
+		<link href="https://fonts.cdnfonts.com/css/marhey" rel="stylesheet">
+	</head>
+
+	<body>
+	
+		<form>
+			
+				<input type="radio" name="Aardvark" value="name" id="name"/>
+				<input type="radio" name="Aardvark" value="tongues" id="tongues"/>
+				<input type="radio" name="Aardvark" value="age" id="age"/>
+				<input type="radio" name="Aardvark" value="tusk" id="tusk"/>
+			
+			<label for="name">
+                <img id="img1" class="imgs" src="../Images/Aardvark/1.jpg" alt="Aardvark">
+                <img id="img2" class="imgs" src="../Images/Aardvark/5.jpg" alt="Aardvark">
+				<div>
+					<p>The aardvark gets its name from a South African word meaning “earth pig.” 
+                    <br> Although the aardvark looks like a pig, especially with its body and snout.</p>
+				</div>
+			</label>
+
+			<label for="tongues">
+                <img id="img3" class="imgs" src="../Images/Aardvark/3.jpg" alt="Aardvark">
+                <img id="img4" class="imgs" src="../Images/Aardvark/2.jpg" alt="Aardvark">
+				<div>
+					<p>Aardvarks have large front claws and long sticky tongues, 
+                    <br> Which can be up to 12 inches (30 centimeters) long.</p>
+				</div>
+			</label>
+			<label for="age">
+                <img id="img5" class="imgs" src="../Images/Aardvark/4.jpg" alt="Aardvark">
+                <img id="img6" class="imgs" src="../Images/Aardvark/6.jpg" alt="Aardvark">
+				<div>
+					<p>The aardvark's weight ranges from 110 to 180 pounds 
+                    and <br> its diet consists almost entirely of ants and termites.</p>
+				</div>
+			</label>
+
+			<div class="keys">Use left and right keys to navigate</div>
+		</form>
+		
+		<!--  <audio id="myAudio" controls autoplay>
+			<source src="../Sounds/elephant.mp3" type="audio/mpeg">
+		</audio> -->
+	</body>
 </html>
