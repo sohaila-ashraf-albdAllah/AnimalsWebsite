@@ -7,23 +7,34 @@ body {
 }
 
 label {
-	color: green;
+	color: rgb(90, 100, 54);
 	transition: transform 400ms ease-out;
 	display: inline-block;
 	width: 100%;
+	top: 4%;
 	position: relative;
 	z-index: 1;
 	text-align: center;
+	background: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+p {
+	margin: 1%;
 }
 
 img {
 	height: 75%;
-	border-radius: 5%;
+	border: 1px solid rgb(211, 188, 188);
+    box-shadow: 0 1px 17px rgba(202, 218, 183, 0.712);
+    border-radius: 5%;
 }
 
 audio {
 	width: 15%; 
 	position: absolute;
+	display: none;
 	top: 0%;
 	left: 0%;
 	z-index: 11;
@@ -45,16 +56,18 @@ form {
 
 input {
 	position: absolute;
+	display: none;
 }
 
 .keys {
 	position: fixed;
-	z-index: 10;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 1rem;
-	color: #ff5b00;
+	z-index: 10;
+	color: #884511;
+	font-size: smaller;
+    font-weight: 700;
 	text-align: center;
 }
 
@@ -82,23 +95,14 @@ input:nth-of-type(4):checked ~ label {
 	transform: translate3d(-300%, 0, 0);
 }
 
-label {
-	background: white;
-	font-size: 2rem;
-}
-
 label:before,
 label:after {
-	color: brown;
+	color: rgb(90, 100, 54);
 	display: block;
-	background: rgba(0,255,0,0.2);
 	position: absolute;
-	padding: 0rem;
-	font-size: 4rem;
-	height: 10rem;
-	vertical-align: middle;
-	line-height: 10rem;
-	top: 50%;
+	padding: 2%;
+	font-size: 100;
+	top: 40%;
 	transform: translate3d(0, -50%, 0);
 	cursor: pointer;
 }
@@ -106,13 +110,9 @@ label:after {
 label:before {
 	content: "\27EB";
 	right: 100%;
-	border-top-left-radius: 50%;
-	border-bottom-left-radius: 50%;
 }
 
 label:after {
 	content: "\27EA";
 	left: 100%;
-	border-top-right-radius: 50%;
-	border-bottom-right-radius: 50%;
 }
