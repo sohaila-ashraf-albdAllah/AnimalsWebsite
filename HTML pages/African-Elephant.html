@@ -1,23 +1,60 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>African Elephant Page</title>
-    <link rel="stylesheet" href="../CSS pages/African-ElephantCSS.css">
-    <link href="https://fonts.cdnfonts.com/css/marhey" rel="stylesheet">
-</head>
-<body>
-    <center>
-		<div><img id="img1" class="imgs" src="../Images/African Elephant/pexels-future-kiiid-3739324.jpg" alt="African Elephant Image"></div>
-    </center>
+	<head>
+		<title>African Elephant</title>
+		<link rel="stylesheet" href="../CSS pages/African-ElephantCSS.css">
+		<link href="https://fonts.cdnfonts.com/css/marhey" rel="stylesheet">
+	</head>
+
+	<body>
 	
-	<div><img id="img2" class="imgs" src="../Images/African Elephant/6OLPk6oR.jpg" alt="African Elephant Image"></div>
-    
-	<div id="leftOne" class="arrows">&lt;</div>
-    <div id="leftTwo" class="arrows">&lt;</div>
-    <div id="rightOne" class="arrows">&gt;</div>
-    <div id="rightTwo" class="arrows">&gt;</div>
-	<center>
-		<div><p>An adult African elephant's trunk is about seven feet (two meters) long! <br> It's actually an elongated nose and upper lip.</p></div>
-	</center>
-</body>
+		<form>
+			
+				<input type="radio" name="elephant" value="trunk" id="trunk"/>
+				<input type="radio" name="elephant" value="weight" id="weight"/>
+				<input type="radio" name="elephant" value="age" id="age"/>
+				<input type="radio" name="elephant" value="tusk" id="tusk"/>
+			
+			<label for="trunk"><img id="img1" class="imgs" src="../Images/African Elephant/1.jpg" alt="African Elephant">
+				<div>
+					<p>An adult African elephant's trunk is about seven feet (two meters) long! 
+					<br> 
+					It's actually an elongated nose and upper lip.
+					</p>
+				</div>
+			</label>
+
+			<label for="weight"><img id="img2" class="imgs" src="../Images/African Elephant/2.jpg" alt="African Elephant">
+				<div>
+					<p>Average weight:
+					<br> 
+					2.5 to 7 tons.
+					</p>
+				</div>
+			</label>
+			<label for="age"><img id="img3" class="imgs" src="../Images/African Elephant/3.jpg" alt="African Elephant">
+				<div>
+					<p>Average life in the wild:
+					<br> 
+					Up to 70 years.
+					</p>
+				</div>
+			</label>
+			<label for="tusk"><img id="img4" class="imgs" src="../Images/African Elephant/4.jpg" alt="African Elephant">
+				<div>
+					<p>Average tusk length:
+					<br> 
+					(1.5-2.5 meters)
+					</p>
+				</div>
+			</label>
+			
+			<div class="keys">Use left and right keys to navigate</div>
+		</form>
+		
+		<audio id="myAudio" controls autoplay>
+			<source src="../Sounds/elephant.mp3" type="audio/mpeg">
+		</audio>
+
+		
+	</body>
 </html>
