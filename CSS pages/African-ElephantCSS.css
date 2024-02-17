@@ -7,24 +7,31 @@ body {
 }
 
 label {
-	color: rgb(90, 100, 54);
+	color: green;
 	transition: transform 400ms ease-out;
 	display: inline-block;
 	width: 100%;
-	top: 3%;
 	position: relative;
 	z-index: 1;
 	text-align: center;
-	background: white;
-    font-size: x-large;
-    font-weight: 700;
 }
 
 img {
 	height: 75%;
-	border: 1px solid rgb(211, 188, 188);
-    box-shadow: 0 1px 17px rgba(202, 218, 183, 0.712);
-    border-radius: 5%;
+	border-radius: 5%;
+}
+
+audio {
+	width: 15%; 
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 11;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: #f9cb85;
+  
 }
 
 form {
@@ -38,18 +45,16 @@ form {
 
 input {
 	position: absolute;
-	display: none;
 }
 
 .keys {
 	position: fixed;
+	z-index: 10;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: 10;
-	color: #884511;
-	font-size: smaller;
-    font-weight: 700;
+	padding: 1rem;
+	color: #ff5b00;
 	text-align: center;
 }
 
@@ -77,13 +82,22 @@ input:nth-of-type(4):checked ~ label {
 	transform: translate3d(-300%, 0, 0);
 }
 
+label {
+	background: white;
+	font-size: 2rem;
+}
+
 label:before,
 label:after {
-	color: rgb(90, 100, 54);
+	color: brown;
 	display: block;
+	background: rgba(0,255,0,0.2);
 	position: absolute;
-	padding: 2%;
-	font-size: 100;
+	padding: 0rem;
+	font-size: 4rem;
+	height: 10rem;
+	vertical-align: middle;
+	line-height: 10rem;
 	top: 50%;
 	transform: translate3d(0, -50%, 0);
 	cursor: pointer;
