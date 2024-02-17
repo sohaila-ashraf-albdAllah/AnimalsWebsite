@@ -2,71 +2,103 @@
 
 body {
     font-family: 'Marhey', sans-serif;
+	overflow: hidden;
+	background-color:white;
 }
 
-div {
-    text-align: center;
+label {
+	color: rgb(90, 100, 54);
+	transition: transform 400ms ease-out;
+	display: inline-block;
+	width: 100%;
+	top: 3%;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: white;
+    font-size: x-large;
+    font-weight: 700;
 }
 
-.imgs {
-    width: 55%;
-    position: absolute;
-    top: 6%;
-    left: 25%;
-    border: 1px solid rgb(211, 188, 188);
+img {
+	height: 75%;
+	border: 1px solid rgb(211, 188, 188);
     box-shadow: 0 1px 17px rgba(202, 218, 183, 0.712);
     border-radius: 5%;
 }
 
-#img2 {
-    display: none;
+form {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	white-space: nowrap;
 }
 
-#rightOne:active {
-	background-color:blue;
-}
-#rightTwo:active {
-	background-color:blue;
-}
-/*+ #img2,
-
-#rightTwo:hover + #img2 {
-    display: block;
-}
-*/
-.arrows {
-    position: absolute;
-    top: 35%;
-    font-size: 80px;
-    color: #884511;/*rgb(62, 74, 49);*/
-    cursor: pointer;
+input {
+	position: absolute;
+	display: none;
 }
 
-#leftOne {
-    left: 15%;
-	float: left;
-}
-
-#leftTwo {
-    left: 17%;
-	float: left;
-}
-
-#rightOne {
-    right: 12%;
-	float: right;
-}
-
-#rightTwo {
-    right: 10%;
-	float: right;
-}
-
-div p {
-    position: absolute;
-    top: 78%;
-    left: 17%;
-    font-size: x-large;
+.keys {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	color: #884511;
+	font-size: smaller;
     font-weight: 700;
-    color: #884511;
+	text-align: center;
+}
+
+input:nth-of-type(1):checked ~ label:nth-of-type(1), 
+input:nth-of-type(2):checked ~ label:nth-of-type(2),
+input:nth-of-type(3):checked ~ label:nth-of-type(3),
+input:nth-of-type(4):checked ~ label:nth-of-type(4)
+{
+   z-index: 0;
+}
+
+input:nth-of-type(1):checked ~ label {
+	transform: translate3d(0, 0, 0);
+}
+
+input:nth-of-type(2):checked ~ label {
+	transform: translate3d(-100%, 0, 0);
+}
+
+input:nth-of-type(3):checked ~ label {
+	transform: translate3d(-200%, 0, 0);
+}
+
+input:nth-of-type(4):checked ~ label {
+	transform: translate3d(-300%, 0, 0);
+}
+
+label:before,
+label:after {
+	color: rgb(90, 100, 54);
+	display: block;
+	position: absolute;
+	padding: 2%;
+	font-size: 100;
+	top: 50%;
+	transform: translate3d(0, -50%, 0);
+	cursor: pointer;
+}
+
+label:before {
+	content: "\27EB";
+	right: 100%;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+label:after {
+	content: "\27EA";
+	left: 100%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
 }
