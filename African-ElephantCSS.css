@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/marhey');
+
+body {
+    font-family: 'Marhey', sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+.imgs {
+    width: 55%;
+    position: absolute;
+    top: 6%;
+    left: 25%;
+    border: 1px solid rgb(211, 188, 188);
+    box-shadow: 0 1px 17px rgba(202, 218, 183, 0.712);
+    border-radius: 5%;
+}
+
+#img2 {
+    display: none;
+}
+
+#rightOne:hover + #img2,
+#rightTwo:hover + #img2 {
+    display: block;
+}
+
+.arrows {
+    position: absolute;
+    top: 35%;
+    font-size: 80px;
+    color: #884511;/*rgb(62, 74, 49);*/
+    cursor: pointer;
+}
+
+#leftOne {
+    left: 15%;
+}
+
+#leftTwo {
+    left: 17%;
+}
+
+#rightOne {
+    right: 12%;
+}
+
+#rightTwo {
+    right: 10%;
+}
+
+div p {
+    position: absolute;
+    top: 78%;
+    left: 17%;
+    font-size: x-large;
+    font-weight: 700;
+    color: #884511;
+}
