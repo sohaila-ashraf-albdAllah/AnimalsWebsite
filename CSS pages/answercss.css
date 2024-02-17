@@ -5,12 +5,17 @@ p{
 	font-size: medium;
 	text-align: left;
 	width:20%
-	
+}
+
+body{
+	background-image: url(../Images/quiz/lionsea.jpg);
+	width: 95%;
+	height: 95%;
+	background-size: cover;
 }
 
 li {
 	font-size: x-large;
 	text-shadow: 1px 1px 5px black;
 	color:white;
-
 }
