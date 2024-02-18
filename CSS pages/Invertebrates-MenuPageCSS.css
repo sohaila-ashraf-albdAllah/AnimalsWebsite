@@ -2,15 +2,15 @@
 
 body {
     margin-left: 0;
-    margin-top: 10%;
+    margin-top: 24%;
     font-family: 'Marhey', sans-serif;
     background-color: rgb(231, 24, 9);/*rgb(000, 000, 000);*/
     overflow: hidden;
 }
 
 .menulinks {
-    padding: 5% 0%;
-    padding-left: 10%;
+    padding: 7% 0%;
+    padding-left: 7%;
     width: 100%;
     position: relative;
     display: block;

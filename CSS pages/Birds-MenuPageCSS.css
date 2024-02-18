@@ -4,12 +4,12 @@ body {
     margin-left: 0;
     margin-top: 10%;
     font-family: 'Marhey', sans-serif;
-    background-color: rgb(145,224,255);/*rgb(000, 000, 000);*/
+    background-color: #eb8e0d;
     overflow: hidden;
 }
 
 .menulinks {
-    padding: 5% 0%;
+    padding: 10% 0%;
     padding-left: 10%;
     width: 100%;
     position: relative;
@@ -21,12 +21,12 @@ body {
 }
 
 .menulinks:hover {
-    background-color: rgba(25,189,255, 0.712);
+    background-color: #f8b65988;
     font-size: larger;
 }
 
 .menulinks:active {
-    background-color: rgba(25,189,255, 0.712);
+    background-color: #f8b65988;
     transform: translateY(2px);
-    box-shadow: 0 2px rgba(0,71,100, 0.712);
+    box-shadow: 0 2px #63482388;
 }
