@@ -11,24 +11,26 @@ label {
 	transition: transform 400ms ease-out;
 	display: inline-block;
 	width: 100%;
-	top: 4%;
+    top: 8%;
 	position: relative;
 	z-index: 1;
 	text-align: center;
 	background: white;
-    font-size: x-large;
+    font-size: 25;
     font-weight: 700;
 }
 
 p {
-	margin: 1%;
+	margin: 0.5%;
 }
 
 img {
-	height: 75%;
+	height: 65%;
+    width: 25%;
 	border: 1px solid rgb(211, 188, 188);
     box-shadow: 0 1px 17px rgba(202, 218, 183, 0.712);
     border-radius: 3%;
+    margin-left: 2%;
 }
 
 audio {
@@ -61,7 +63,7 @@ input {
 
 .keys {
 	position: fixed;
-	bottom: 0;
+	bottom: 2%;
 	left: 0;
 	right: 0;
 	z-index: 10;

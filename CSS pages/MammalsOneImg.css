@@ -7,7 +7,7 @@ body {
 }
 
 label {
-	color: rgb(90, 100, 54);
+	color: #788C44;
 	transition: transform 400ms ease-out;
 	display: inline-block;
 	width: 100%;
@@ -61,7 +61,7 @@ input {
 
 .keys {
 	position: fixed;
-	bottom: 0;
+	bottom: 2%;
 	left: 0;
 	right: 0;
 	z-index: 10;
@@ -97,7 +97,7 @@ input:nth-of-type(4):checked ~ label {
 
 label:before,
 label:after {
-	color: rgb(90, 100, 54);
+	color: #788C44;
 	display: block;
 	position: absolute;
 	padding: 2%;
