@@ -2,9 +2,8 @@
 
 body {
     margin-left: 0;
-    margin-top: 18%;
+    margin-top: 24%;
     font-family: 'Marhey', sans-serif;
-    background-color: rgb(23,86,22);/*rgb(62, 74, 49);*/
     overflow: hidden;
 }
 
@@ -15,18 +14,15 @@ body {
     position: relative;
     display: block;
     text-decoration: none;
-    color: rgb(245, 245, 245);
+    color: rgb(255,255,255);
     font-size: large;
     font-weight: 700;
 }
 
 .menulinks:hover {
-    background-color: rgba(99, 215, 95, 0.45);
     font-size: larger;
 }
 
 .menulinks:active {
-    background-color: rgba(98,215,95, 0.712);
     transform: translateY(2px);
-    box-shadow: 0 2px rgba(10,38,10, 0.712);
 }
