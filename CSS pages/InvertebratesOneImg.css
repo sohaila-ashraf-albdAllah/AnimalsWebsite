@@ -61,11 +61,11 @@ input {
 
 .keys {
 	position: fixed;
-	bottom: 2%;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	z-index: 10;
-	color: #1a7291;;
+	color: #2b2a27;
 	font-size: smaller;
     font-weight: 700;
 	text-align: center;
