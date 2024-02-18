@@ -2,14 +2,14 @@
 
 body {
     margin-left: 0;
-    margin-top: 10%;
+    margin-top: 18%;
     font-family: 'Marhey', sans-serif;
     background-color: rgb(23,86,22);/*rgb(62, 74, 49);*/
     overflow: hidden;
 }
 
 .menulinks {
-    padding: 5% 0%;
+    padding: 10% 0%;
     padding-left: 10%;
     width: 100%;
     position: relative;
