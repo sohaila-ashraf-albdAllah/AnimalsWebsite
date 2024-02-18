@@ -2,14 +2,14 @@
 
 body {
     margin-left: 0;
-    margin-top: 10%;
+    margin-top: 18%;
     font-family: 'Marhey', sans-serif;
-    background-color: rgb(127,205,255);/*rgb(000, 000, 000);*/
+    background-color: #1aa0b5;
     overflow: hidden;
 }
 
 .menulinks {
-    padding: 5% 0%;
+    padding: 10% 0%;
     padding-left: 10%;
     width: 100%;
     position: relative;
@@ -21,12 +21,12 @@ body {
 }
 
 .menulinks:hover {
-    background-color: rgba(29,162,216, 0.712);
+    background-color: #9edbde4f;
     font-size: larger;
 }
 
 .menulinks:active {
     background-color: rgba(29,162,216, 0.712);
     transform: translateY(2px);
-    box-shadow: 0 2px rgba(6,66,115, 0.712);
+    box-shadow: 0 2px rgba(6, 66, 115, 0.384);
 }

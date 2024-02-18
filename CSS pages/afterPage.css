@@ -10,7 +10,6 @@ body {
 
 .vertical-line {
 	position: absolute;
-	border-left: 7px solid #949e6c;
 	height: 35%;
 	top: 8%;
 }
@@ -19,6 +18,7 @@ body {
 	background: rgb(0 0 0 / 40%);
     background-image: none;
 	position: absolute;
+	/*height: 94%;*/
 	top: 0;
 	right: 0;
 	bottom: 0;

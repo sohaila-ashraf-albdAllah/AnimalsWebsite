@@ -21,7 +21,7 @@ body {
 }
 
 .menulinks:hover {
-    background-color: rgba(98,215,95, 0.712);
+    background-color: rgba(99, 215, 95, 0.45);
     font-size: larger;
 }
 
