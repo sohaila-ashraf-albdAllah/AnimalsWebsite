@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/marhey');
+
+body {
+    font-family: 'Marhey', sans-serif;
+	overflow: hidden;
+	background-color:white;
+}
+
+label {
+	color: #2b2a27de;
+	transition: transform 400ms ease-out;
+	display: inline-block;
+	width: 100%;
+	top: 8%;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	background: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+p {
+	margin-top: 2%;
+}
+
+img {
+	height: 63%;
+	border: 1px solid rgb(211, 188, 188);
+    box-shadow: 0 2px 17px rgba(202, 218, 183, 0.712);
+    border-radius: 3%;
+}
+
+audio {
+	width: 15%; 
+	position: absolute;
+	display: none;
+	top: 0%;
+	left: 0%;
+	z-index: 11;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color: #f9cb85;
+  
+}
+
+form {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	white-space: nowrap;
+}
+
+input {
+	position: absolute;
+	display: none;
+}
+
+.keys {
+	position: fixed;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	color: #1a7291;;
+	font-size: smaller;
+    font-weight: 700;
+	text-align: center;
+}
+
+input:nth-of-type(1):checked ~ label:nth-of-type(1), 
+input:nth-of-type(2):checked ~ label:nth-of-type(2),
+input:nth-of-type(3):checked ~ label:nth-of-type(3),
+input:nth-of-type(4):checked ~ label:nth-of-type(4)
+{
+   z-index: 0;
+}
+
+input:nth-of-type(1):checked ~ label {
+	transform: translate3d(0, 0, 0);
+}
+
+input:nth-of-type(2):checked ~ label {
+	transform: translate3d(-100%, 0, 0);
+}
+
+input:nth-of-type(3):checked ~ label {
+	transform: translate3d(-200%, 0, 0);
+}
+
+input:nth-of-type(4):checked ~ label {
+	transform: translate3d(-300%, 0, 0);
+}
+
+label:before,
+label:after {
+	color: #2b2a27de;
+	display: block;
+	position: absolute;
+	padding: 2%;
+	font-size: 100;
+	top: 40%;
+	transform: translate3d(0, -50%, 0);
+	cursor: pointer;
+}
+
+label:before {
+	content: "\27EB";
+	right: 100%;
+}
+
+label:after {
+	content: "\27EA";
+	left: 100%;
+}
