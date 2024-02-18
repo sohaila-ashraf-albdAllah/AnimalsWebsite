@@ -12,13 +12,14 @@ body {
     background-color: rgba(131, 143, 117, 0.32);
     position: relative;
     text-align: center;
+    padding-bottom: 1%;
 }
 
 #Icon img {
     width: 40%;
     height: 40%;
     position: relative;
-    margin-top: 10%;
+    margin-top: 9%;
 }
 
 #Icon p {
@@ -28,12 +29,22 @@ body {
     font-size: medium;
     font-weight: 600;
     position: absolute;
+    top: 70%;
     left: 25%;
-    top: 78%;
     text-shadow: -1px -1px 0 #fff,  
                   1px -1px 0 #fff,
                  -1px  1px 0 #fff,
                   1px  1px 0 #fff;
+}
+
+#betweenDivs {
+    background-image: none;
+	position: absolute;
+	/*height: 94%;*/
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 #homeImgID {
@@ -47,22 +58,14 @@ body {
 
 #menuType {
     width: 15%;
-    height: 82%;
+    padding-top: 5%;
     background-color: rgba(131, 143, 117, 0.25);
-    position: absolute;
+    position: relative;
 }
-#quizImgID {
-	background-image: url("../quiz3.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    top: 100%;
-    text-align: center;
-}
+
 .menulinks {
     position: relative;
-    top: 14%;
+    padding-top: 20%;
     padding: 15px 30px;
     display: block;
     text-decoration: none;
@@ -80,18 +83,55 @@ body {
     transform: translateY(2px);
     box-shadow: 0 2px rgba(165, 173, 155, 0.712);
 }
-#footer {
+
+#quizImgID h1 {
+    position: relative;
+    left: 4%;
+    top: 55%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#quizImgID div  {
+    position: relative;
+    left: 35%;
+    width: 65%;
+    top: 15%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#quizImgID {
+    background-color: rgba(198, 221, 171, 0.103);
     width: 100%;
-    height: 5%;
-    top: 95%;
-    background-color: rgba(131, 143, 117, 0.50);
+    height: 90%;
+    position: absolute;
+    top: 70%;
+    text-align: left;
+    color: #3c422c;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 40%;
+    background-color: #3c422c;
+    position: relative;
+    text-align: center;
+}
+
+.between {
+    width: 100%;
+    height: 2%;
+    top: 98%;
+    background-color: rgba(131, 143, 117, 0.25);
     position: absolute;
     text-align: center;
 }
-#footer a{
+
+.footer a{
     color: rgb(245, 245, 245);
     text-decoration: none;
-    font-size: large;
+    font-size: small;
 }
 
 
